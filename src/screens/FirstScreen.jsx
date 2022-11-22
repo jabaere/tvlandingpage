@@ -1,6 +1,6 @@
 import React from "react";
 import headGifUrl from "../assets/images/HEAD-GIF.gif";
-
+import TwitterIcon from "@mui/icons-material/Twitter";
 export const FirstScreen = () => {
   return (
     <div className="firstScreenContainer">
@@ -13,7 +13,7 @@ export const FirstScreen = () => {
           Humanity's only connection to their past lives comes from extreme
           escapism.
         </p>
-        <div className="button">Tweeter</div>
+        <div className="button">Tweeter<span style={{padding:'0.3rem'}}><TwitterIcon/></span></div>
       </div>
       <div className="headerImageContainer">
         <img className="headerGif" src={headGifUrl} />
