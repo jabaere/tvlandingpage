@@ -17,7 +17,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  background: url("/images/background.png");
+  background: url("../public/images/background.png");
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
