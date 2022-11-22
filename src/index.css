@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Bad Signal";
-  src: url("src/assets/fonts/BadSignal.otf");
+  src: url("fonts/BadSignal.otf");
 }
 * {
   overflow-x: clip;
@@ -17,7 +17,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  background: url("./assets/images/background.PNG");
+  background: url("images/background.PNG");
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -90,8 +90,7 @@ nav {
   margin-top: 2.5rem;
   text-align: start;
 }
-.headerGif {
-}
+
 .button {
   width: 10rem;
   height: 3rem;

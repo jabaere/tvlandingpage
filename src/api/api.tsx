@@ -24,43 +24,43 @@ export const faqData = [
 
 export const galleryData = [
       {
-        cover: "src/assets/images/1.png",
+        cover: "images/1.png",
       },
       {
-        cover: "src/assets/images/2.png",
+        cover: "images/2.png",
       },
       {
-        cover: "src/assets/images/3.png",
+        cover: "/images/3.png",
       },
       {
-        cover: "src/assets/images/4.png",
+        cover: "/images/4.png",
       },
       {
-        cover: "src/assets/images/5.png",
+        cover: "/images/5.png",
       }
 ]
 
 export const teamData = [
     {
-        picture:'src/assets/images/team1.png',
+        picture:'images/team1.png',
         name:'STEVE',
         position:'Developer',
         twitLink:'#'
     },
     {
-        picture:'src/assets/images/team2.png',
+        picture:'images/team2.png',
         name:'HORRISH',
         position:'Project Manager',
         twitLink:'#'
     },
     {
-        picture:'src/assets/images/team3.png',
+        picture:'images/team3.png',
         name:'DUKE',
         position:'Content Creator',
         twitLink:'#'
     },
     {
-        picture:'src/assets/images/team4.png',
+        picture:'images/team4.png',
         name:'JARED',
         position:'Artist',
         twitLink:'#'

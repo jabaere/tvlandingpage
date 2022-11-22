@@ -1,5 +1,5 @@
 import React from "react";
-import headGifUrl from "../assets/images/HEAD-GIF.gif";
+import headGifUrl from "../assets/HEAD-GIF.gif";
 import TwitterIcon from "@mui/icons-material/Twitter";
 export const FirstScreen = () => {
   return (
