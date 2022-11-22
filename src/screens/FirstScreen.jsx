@@ -13,7 +13,7 @@ export const FirstScreen = () => {
           Humanity's only connection to their past lives comes from extreme
           escapism.
         </p>
-        <div className="button">Tweeter<span style={{padding:'0.3rem'}}><TwitterIcon/></span></div>
+        <div className="button">Twitter<span style={{padding:'0.3rem'}}><TwitterIcon/></span></div>
       </div>
       <div className="headerImageContainer">
         <img className="headerGif" src={headGifUrl} />
