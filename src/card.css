@@ -1,0 +1,38 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.cardct-10 {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  color: black;
+}
+.cardPictureContainer {
+  height: 24rem;
+}
+.cardPicture {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

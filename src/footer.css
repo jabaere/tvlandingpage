@@ -1,0 +1,21 @@
+.middleFutter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContainer {
+  padding-bottom: 2.5rem;
+  padding-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .footerContainer {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+}
