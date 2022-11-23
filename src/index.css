@@ -216,4 +216,14 @@ nav {
   .cardContainer {
     margin-top: 0;
   }
+  .hidden{
+    display: none;
+  }
+
+}
+
+@media(max-width: 520px){
+  .missionContent{
+    padding: 1rem 1rem
+  }
 }

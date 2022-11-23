@@ -13,6 +13,8 @@ export const TeamCard = ({
 }) => {
   const [animation, setAnimaton] = useState();
   const indexRef = useRef();
+
+  //set different animation to first and last elements in array
   useEffect(() => {
     if (indexRef.current) {
       if (+indexRef.current.id === 0) {
