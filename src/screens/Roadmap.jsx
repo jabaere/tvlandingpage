@@ -4,12 +4,12 @@ import AOS from "aos";
 export const Roadmap = () => {
   return (
     <div
-      className="aos-init roadmapContainer"
+      className="roadmapContainer"
       data-aos="zoom-in-up"
       id="roadmap"
     >
       <h1
-        className="aos-init aos-animate galleryTitle"
+        className="aos-animate galleryTitle"
         data-aos="zoom-in-up"
         id="roadmap"
       >
@@ -20,7 +20,7 @@ export const Roadmap = () => {
         <div className="wall"></div>
         <div className="missions">
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-right"
             data-aos-duration="1600"
           >
@@ -32,7 +32,7 @@ export const Roadmap = () => {
           <div className="hidden"></div>
           <div className="hidden"></div>
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-left"
             data-aos-duration="1700"
           >
@@ -45,7 +45,7 @@ export const Roadmap = () => {
           </div>
 
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-right"
             data-aos-duration="1800"
           >
@@ -60,7 +60,7 @@ export const Roadmap = () => {
           <div className="hidden"></div>
           <div className="hidden"></div>
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-left"
             data-aos-duration="1900"
           >
@@ -74,7 +74,7 @@ export const Roadmap = () => {
             </div>
           </div>
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -86,7 +86,7 @@ export const Roadmap = () => {
           <div className="hidden"></div>
           <div className="hidden"></div>
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-left"
             data-aos-duration="2100"
           >
@@ -98,7 +98,7 @@ export const Roadmap = () => {
           <div className="hidden"></div>
           <div className="hidden"></div>
           <div
-            className="mission aos-init"
+            className="mission"
             data-aos="fade-right"
             data-aos-duration="2200"
           >

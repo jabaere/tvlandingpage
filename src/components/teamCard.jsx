@@ -27,7 +27,7 @@ export const TeamCard = ({
   }, [animation]);
   return (
     <div
-      className="card aos-init"
+      className="card"
       data-aos={animation || "zoom-out"}
       id={cardIndex}
       ref={indexRef}

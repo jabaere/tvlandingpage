@@ -6,8 +6,8 @@ import { faqData } from "../api/api";
 
 export const Faq = () => {
   return (
-    <div className="faqContainer aos-init" data-aos="fade-right" id="faq">
-      <h1 data-aos="zoom-in-up" className="aos-init">
+    <div className="faqContainer" data-aos="fade-right" id="faq">
+      <h1 data-aos="zoom-in-up">
         FAQ
       </h1>
       {faqData.map((item, index) => (

@@ -18,14 +18,13 @@ const TwitchExample = () => {
   return (
     <div className="twitch " id="galery">
       <h1
-        className="galleryTitle text-center text-4xl font-newton aos-init"
+        className="galleryTitle text-center text-4xl font-newton"
         data-aos="zoom-in-up"
       >
         Gallery
       </h1>
       <div
         style={{ width: "100%", position: "relative", display: "flex" }}
-        className="aos-init"
         data-aos="zoom-out"
       >
         <ResponsiveContainer

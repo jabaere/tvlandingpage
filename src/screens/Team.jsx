@@ -7,7 +7,7 @@ export const Team = () => {
   return (
     <div className="cardContainer" id="team">
       <div>
-        <h1 data-aos="zoom-in-up" className="teamTitle aos-init">
+        <h1 data-aos="zoom-in-up" className="teamTitle">
           Team
         </h1>
       </div>
