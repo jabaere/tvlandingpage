@@ -27,6 +27,7 @@
   flex-direction: column;
   background-color: whitesmoke;
   color: black;
+  padding-top: 0.9rem;
 }
 .cardPictureContainer {
   height: 24rem;
@@ -36,3 +37,8 @@
   height: 100%;
   object-fit: cover;
 }
+@media (max-width: 520px) {
+    .cardct-10 {
+      margin-top: -30rem;
+    }
+  }

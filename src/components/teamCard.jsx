@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "../card.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import TwitterIcon from "@mui/icons-material/Twitter";
 export const TeamCard = ({
   picture,
   name,
@@ -38,7 +38,7 @@ export const TeamCard = ({
         <h3>{position}</h3>
         <div className="cardTwitButton">
           <a href={twitLink}>
-            <img src="" />
+            <TwitterIcon style={{color:'black',marginBottom:'0.5rem'}}/>
           </a>
         </div>
       </div>

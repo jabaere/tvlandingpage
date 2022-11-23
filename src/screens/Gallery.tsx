@@ -14,6 +14,7 @@ import { galleryData } from "../api/api";
 
 const TwitchExample = () => {
   const ref = React.useRef<StackedCarousel>();
+ 
   return (
     <div className="twitch " id="galery">
       <h1
@@ -34,7 +35,7 @@ const TwitchExample = () => {
               <StackedCarousel
                 ref={carouselRef}
                 slideComponent={Slide}
-                slideWidth={350}
+                slideWidth={width > 520 ? 350 : 220}
                 carouselWidth={width}
                 data={galleryData}
                 maxVisibleSlide={5}
